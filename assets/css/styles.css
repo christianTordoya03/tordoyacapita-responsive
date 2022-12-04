@@ -142,6 +142,9 @@ body.dark-theme{
   box-shadow: none;
 }
 
+.flex{
+  display: flex;
+}
 .dark-theme .logos__img img{
   opacity: .1;
 }

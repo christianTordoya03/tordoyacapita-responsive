@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const imgLightBox = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(imgLightBox)
+})
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
     const header = document.getElementById('header')
