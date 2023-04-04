@@ -119,6 +119,11 @@ body.dark-theme{
   --container-color: hsl(228, 16%, 12%);
 }
 
+/*========MODAL============*/
+.popular__img{
+  
+}
+
 /*========== 
     Color changes in some parts of 
     the website, in dark theme 
