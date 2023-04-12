@@ -19,8 +19,10 @@ h1{
 
 }
 .cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
 
 .card{
@@ -31,6 +33,10 @@ h1{
     transition: all 0.3s ease-out;
     margin-bottom: 1.5%;
 }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
 
 .card img{
     width: 100%;

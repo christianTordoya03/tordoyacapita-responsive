@@ -90,6 +90,7 @@ img {
 }
 
 input,
+select,
 button {
   font-family: var(--body-font);
   outline: none;
